@@ -6,6 +6,10 @@ import detectPort from 'detect-port';
   const port: string = process.env.PORT || '1212';
 
   detectPort(port, (err: ?Error, availablePort: number) => {
+    if (err) {
+      console.log(err);
+    }
+
     if (port !== String(availablePort)) {
       throw new Error(
         chalk.whiteBright.bgRed.bold(
