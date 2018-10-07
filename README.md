@@ -1,3 +1,7 @@
+# Electron React Standard Boilerplate
+
+This is a fork of [Electron React Boilerplate](https://github.com/chentsulin/electron-react-boilerplate) that adds Standard JS style.
+
 <div align="center">
 <br>
 <img src="https://user-images.githubusercontent.com/12294525/44203609-77d50800-a147-11e8-98f0-f2403527abdc.png" width="600px" />
